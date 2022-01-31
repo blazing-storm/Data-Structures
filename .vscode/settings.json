@@ -6,7 +6,8 @@
         "queue": "cpp",
         "vector": "cpp",
         "xiosbase": "c",
-        "utility": "cpp"
+        "utility": "cpp",
+        "map": "cpp"
     },
     "problems.decorations.enabled": false
 }
