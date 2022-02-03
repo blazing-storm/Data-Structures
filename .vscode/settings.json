@@ -7,7 +7,12 @@
         "vector": "cpp",
         "xiosbase": "c",
         "utility": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "xstring": "cpp"
     },
     "problems.decorations.enabled": false
 }
