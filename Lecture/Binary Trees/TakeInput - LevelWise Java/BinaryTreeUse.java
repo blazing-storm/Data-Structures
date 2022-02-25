@@ -38,6 +38,7 @@ public class BinaryTreeUse {
 		System.out.println("Enter root data");
 		int rootData = s.nextInt();
 		if (rootData == -1) {
+			s.close();
 			return null;
 		}
 		BinaryTreeNode<Integer> root = new BinaryTreeNode<Integer>(rootData);
@@ -48,6 +49,7 @@ public class BinaryTreeUse {
 			try {
 				front = pendingNodes.dequeue();
 			} catch (QueueEmptyException e) {
+				s.close();
 				return null;
 			}
 			System.out.println("Enter left child of " + front.data);
@@ -66,6 +68,7 @@ public class BinaryTreeUse {
 				front.right = child;
 			}
 		}
+		s.close();
 		return root;
 	}
 	
